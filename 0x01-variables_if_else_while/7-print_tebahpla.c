@@ -12,7 +12,7 @@ int main(void)
 {
 int ch;
 char chx = '\n';
-for (ch = 123; ch > 96; ch--)
+for (ch = 122; ch > 96; ch--)
 {
 putchar(ch);
 }
