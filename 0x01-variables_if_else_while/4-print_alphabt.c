@@ -15,7 +15,8 @@ char chx = '\n';
 for (ch = 97; ch < 123; ch++)
 {
 if (ch == 101 || ch == 113)
-putchar("");
+{
+}
 else
 putchar(ch);
 }
