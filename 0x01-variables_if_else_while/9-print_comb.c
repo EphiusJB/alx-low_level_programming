@@ -14,8 +14,15 @@ int ch;
 for (ch = 48; ch < 58; ch++)
 {
 putchar(ch);
+if (ch == 57)
+{
+
+}
+else
+{
 putchar(',');
 putchar(32);
+}
 }
 
 return (0);
