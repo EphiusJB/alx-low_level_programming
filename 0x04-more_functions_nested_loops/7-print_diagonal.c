@@ -16,9 +16,7 @@ if (n > 0)
 while (m < n)
 {
 for (i = 0; i < m; i++)
-{
 _putchar(' ');
-}
 _putchar('\');
 _putchar('\n');
 m++;
