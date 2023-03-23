@@ -1,23 +1,19 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<time.h>
-
+#include "main.h"
 /**
 * main - Entry point
 *
 * Return: Always 0 (Success)
 */
 
-int main(void)
+void print_numbers(void)
 {
 int ch;
 char chx = '\n';
 for (ch = 48; ch < 58; ch++)
 {
-putchar(ch);
+_putchar(ch);
 }
-putchar(chx);
+_putchar(chx);
 
-return (0);
 }
 
