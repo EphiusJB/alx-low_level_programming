@@ -48,9 +48,10 @@ return (oi *pn);
 
 int main(int argc, char *argv[])
 {
-	int sum, count;
+	int sum, count, scount;
 
 	sum = 0;
+	scount = 0;
 
 	if (argc < 2)
 	{
@@ -60,11 +61,15 @@ int main(int argc, char *argv[])
 	{
 	for (count = 1; count < argc; count++)
 	{
-	if (!_atoi(argv[count]))
-	{
-	printf("Error\n");
-	return (1);
-	}
+		while (argv[count][scount] != '\0')
+		{
+			if (!isdigit(argv[count][scount]))
+			{
+				printf("Error\n");
+				return (1);
+			}
+			scount++;
+		}
 	sum += _atoi(argv[count]);
 	}
 	printf("%d\n", sum);
