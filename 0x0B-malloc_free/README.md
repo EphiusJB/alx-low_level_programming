@@ -1,1 +1,1 @@
-# maloc directory
+Malloc and free functions in C
