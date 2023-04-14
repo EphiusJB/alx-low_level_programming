@@ -33,8 +33,5 @@ if (new_size == 0 && ptr != NULL)
 free(ptr);
 ptr = malloc(new_size);
 
-if (ptr == NULL)
-return (NULL);
-
 return (ptr);
 }
