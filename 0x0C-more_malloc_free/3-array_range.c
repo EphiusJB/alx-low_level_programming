@@ -21,7 +21,7 @@ if (min > max)
 
 aray = malloc(sizeof(*aray) * ((max - min) + 1));
 
-if (ar == NULL)
+if (aray == NULL)
 	return (NULL);
 
 for (coun = 0; min <= max; count++, min++)
