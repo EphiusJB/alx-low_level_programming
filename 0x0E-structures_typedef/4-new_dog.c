@@ -1,5 +1,5 @@
 #include<stdlib.h>
-#include"dog.hh"
+#include"dog.h"
 
 /**
 * new_dog - a function that creates a new dog.
@@ -29,7 +29,7 @@ for (ownerln = 0; owner[ownerln]; ownerln++)
 	;
 
 (*ptr_dog).name = malloc(nameln + 1);
-(ptr_dog).owner = malloc(ownerln + 1);
+(*ptr_dog).owner = malloc(ownerln + 1);
 
 if (!((*ptr_dog).name) || !((*ptr_dog).owner))
 {
