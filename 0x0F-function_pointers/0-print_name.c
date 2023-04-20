@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include "function_pointers.h"
+
+/**
+ * print_name - calls print functions using function pointer.
+ *
+ * @name: name of the person
+ * @f: function pointer
+ *
+ * Return: Nothing.
+ */
+
+void print_name(char *name, void (*f)(char *))
+{
+(*f)(name);
+}
