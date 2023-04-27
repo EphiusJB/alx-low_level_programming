@@ -19,7 +19,7 @@ while (tmp != NULL)
 {
 if (tmp->str == NULL)
 {
-printf("[%d] %s\n", tmp->len, strg);
+printf("[0] %s\n", strg);
 count++;
 tmp = tmp->next;
 }
