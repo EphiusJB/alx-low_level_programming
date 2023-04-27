@@ -9,7 +9,7 @@
 * Return: returns the number of elements in the list.
 */
 
-size_tlist_len(const list_t *h)
+size_t list_len(const list_t *h)
 {
 const list_t *tmp;
 unsigned int count = 0;
