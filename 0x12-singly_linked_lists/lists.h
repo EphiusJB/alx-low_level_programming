@@ -18,6 +18,6 @@ struct list_s *next;
 
 /* funtion prototypes for the linked list */
 size_t print_list(const list_t *h);
-
+size_t list_len(const list_t *h);
 
 #endif /* LISTS_H_INCLUDED */
