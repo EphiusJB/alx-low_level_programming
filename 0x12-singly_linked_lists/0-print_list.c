@@ -12,13 +12,14 @@
 size_t print_list(const list_t *h)
 {
 const list_t *tmp;
+char *strg = "(nil)";
 unsigned int count = 0;
 tmp = h;
 while (tmp != NULL)
 {
 if (tmp->str == NULL)
 {
-printf("[%d] %s", tmp->len, strg);
+printf("[%d] %s\n", tmp->len, strg);
 count++;
 tmp = tmp->next;
 }
