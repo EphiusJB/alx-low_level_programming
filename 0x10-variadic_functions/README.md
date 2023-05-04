@@ -1,1 +1,0 @@
- Variadic functions read me
